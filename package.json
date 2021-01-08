@@ -1,0 +1,35 @@
+{
+  "name": "homebridge-mqtt-tasmota-led-strip",
+  "version": "0.0.1",
+  "description": "Plugin to HomeBridge to Control WS2812 LED Stripe with ES8266 (Tasmota FW) over MQTT.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomis94/homebridge-mqtt-tasmota-led-strip.git"
+  },
+  "dependencies": {
+    "mqtt": ">=1.12.0"
+  },
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">4.0.0"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "homekit",
+    "ws2812",
+    "led-strip",
+    "tasmota",
+    "mqtt-tasmota"
+  ],
+  "author": "Simon Schmidt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nomis94/homebridge-mqtt-tasmota-led-strip/issues"
+  },
+  "homepage": "https://github.com/nomis94/homebridge-mqtt-tasmota-led-strip#readme"
+}

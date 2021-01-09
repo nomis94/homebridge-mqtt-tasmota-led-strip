@@ -233,9 +233,7 @@ MqttTasmotaLEDStripAccessory.prototype.getBrightness = function(callback) {
 
 MqttTasmotaLEDStripAccessory.prototype.setBrightness = function(value, callback) {
     this.lb_brightness = value;
-    this.log(this.name, this.topicSetBrightness, String(value));
     this.client.publish(this.topicSetBrightness, String(value));
-
     callback();
 };
 

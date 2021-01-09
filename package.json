@@ -1,6 +1,6 @@
 {
   "name": "homebridge-mqtt-tasmota-led-strip",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Plugin to HomeBridge to Control WS2812 LED Stripe with ES8266 (Tasmota FW) over MQTT.",
   "main": "index.js",
   "scripts": {
